@@ -1,0 +1,99 @@
+
+        <!DOCTYPE html>
+        <html lang="nl">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Mijn Eerste Twee Weken bij Brandologic – Een Stage vol Uitdagingen en Groei</title>
+
+            
+                <script>
+                    function showWeek(week) {
+                        const weeks = document.querySelectorAll('.week-content');
+                        weeks.forEach(content => content.classList.remove('active'));
+                        document.getElementById('week-' + week).classList.add('active');
+                    }
+                    window.onload = () => showWeek(2); // Toon standaard week 2
+                </script>
+            </head>
+            <body>
+                <header>
+                    <img src="./assets/Afbeelding van WhatsApp op 2024-12-27 om 14.18.38_62db247a.jpg" alt="Dante Verbiest" class="profile-photo">
+                    <h1>Mijn Stage bij Brandologic</h1>
+                    <p>Door Dante Verbiest</p>
+                </header>
+            
+                <nav class="navigation">
+                    <button class="nav-button" onclick="showWeek(2)">Week 2</button>
+                    <button class="nav-button" onclick="showWeek(4)">Week 4</button>
+                    <button class="nav-button" onclick="showWeek(6)">Week 6</button>
+                    <button class="nav-button" onclick="showWeek(8)">Week 8</button>
+                    <button class="nav-button" onclick="showWeek(10)">Week 10</button>
+                    <button class="nav-button" onclick="showWeek(12)">Week 12</button>
+                    <button class="nav-button" onclick="showWeek(14)">Week 14</button>
+                </nav>
+        </head>
+        <body>
+            <header>
+                <h1>Mijn Eerste Twee Weken bij Brandologic – Een Stage vol Uitdagingen en Groei</h1>
+            </header>
+        
+            <section>
+                <p>De eerste twee weken van mijn stage bij Brandologic zijn voorbijgevlogen. Het is ongelooflijk hoe snel je je ergens thuis kunt voelen als de sfeer goed zit. Vanaf het moment dat ik binnenstapte, voelde ik me welkom. Mijn collega’s begroetten me hartelijk en namen de tijd om me op weg te helpen. Er hangt een gezellige, huiselijke sfeer op kantoor. Het is rustig genoeg om je goed te kunnen concentreren, maar er is ook altijd ruimte voor een grapje of een praatje tussendoor. Dat evenwicht zorgt ervoor dat ik elke dag met plezier naar mijn stageplek ga.</p>
+            </section>
+        
+            <section>
+                <h2>Aan de Slag – Mijn Projecten en Taken</h2>
+                <p>De afgelopen weken heb ik mogen werken aan een breed scala aan opdrachten, wat deze stage meteen erg afwisselend maakt. Eén van mijn eerste taken was het oplossen van een probleem op de website van Sam Rent. De kalender hield geen rekening met sluitingsdagen, waardoor klanten soms op dagen konden reserveren dat het bedrijf gesloten was. Ik heb dit opgelost met PHP door een visuele interface te maken in WordPress waarmee beheerders makkelijk sluitingsdagen kunnen instellen. Dat was een fijne manier om meteen mijn technische skills in de praktijk te brengen.</p>
+                <p>Daarnaast mocht ik visuele problemen op de website aanpakken. Zo werd de zwarte header wit als er een item in het winkelmandje werd toegevoegd, wat ik met CSS heb kunnen oplossen. Ook werkte ik aan het verbeteren van foutmeldingen en zorgde ik ervoor dat alle wijzigingen eerst in een testomgeving werden uitgevoerd, zodat de live website niet in gevaar kwam.</p>
+                <p>Tussen het coderen door kreeg ik ook de kans om mijn creativiteit in te zetten. Ik dook in After Effects, een programma waarmee ik tot voor kort weinig ervaring had. Dankzij online tutorials en veel oefenen kon ik al snel een animatie maken van het Droomcomfort-logo. Voor Brandologic zelf ontwierp ik een nieuwe animatie voor hun logo én begon ik aan een redesign van hun website. Het was uitdagend om hun visie te vertalen naar een concreet ontwerp, maar met de duidelijke feedback van mijn mentor kon ik steeds betere versies maken. Bovendien werkte ik aan een interactieve brandbook waarin ik motion designs verwerkte, wat een toffe combinatie was van design en technologie.</p>
+        
+                <h3>Mijn Projecten</h3>
+                <div class="projecten">
+                    <div class="project-card">
+                        <h4>Droomcomfort Logo Animatie</h4>
+                        <video controls>
+                            <source src="./assets/Droomcomfort_optie2.mp4" type="video/mp4">
+                            Je browser ondersteunt deze video niet.
+                        </video>
+                    </div>
+                    <div class="project-card">
+                        <h4>Droomcomfort Animatie</h4>
+                        <video controls>
+                            <source src="./assets/Droomcomfort_Optie3.mp4" type="video/mp4">
+                            Je browser ondersteunt deze video niet.
+                        </video>
+                    </div>
+                    <div class="project-card">
+                        <h4>PVerf bakken oefening</h4>
+                        <video controls>
+                            <source src="./assets/paint basket.mp4" type="video/mp4">
+                            Je browser ondersteunt deze video niet.
+                        </video>
+                    </div>
+                    <div class="project-card">
+                        <h4> Website Redesign</h4>
+                        <img src="./assets/Schermafbeelding 2025-02-22 151455.png" alt="Schermafbeelding van het website redesign">
+                    </div>
+                    <div class="project-card">
+                        <h4>Brandguide design Brandologic</h4>
+                        <video controls>
+                            <source src="./assets/Bezig met opnemen 2025-02-22 151328.mp4" type="video/mp4">
+                            Je browser ondersteunt deze video niet.
+                        </video>
+                    </div>
+                </div>
+            </section>
+        
+            <section>
+                <h2>Deadlines en Planning – Flexibiliteit en Prioriteiten</h2>
+                <p>Bij Brandologic werken we met flexibele deadlines, wat fijn is omdat het ruimte biedt om kwaliteit boven snelheid te stellen. Dat betekent natuurlijk niet dat ik achterover leun; dringende problemen, zoals het vervangen van een verlopen Google Maps API-key, pak ik meteen aan. Dat project was pittig, vooral omdat de oude code diep verstopt zat, maar het lukte me uiteindelijk om de juiste key te vinden en de kaart weer werkend te krijgen.</p>
+                <p>Voor de komende week staat er een nieuwe uitdaging op de planning: een script schrijven dat automatisch prijzen berekent. Het lijkt simpel, maar de formule is complex met veel verschillende prijsfactoren. Ik krijg een dag de tijd om het werkend te krijgen; als het dan nog niet lukt, wordt het project voorlopig on hold gezet. Het is fijn dat er begrip is voor de complexiteit van sommige taken en dat ik de ruimte krijg om het te proberen zonder onnodige druk.</p>
+            </section>
+        
+            <footer>
+                © 2025 Dante Verbiest - Stage bij Brandologic
+            </footer>
+        </body>
+        </html>
